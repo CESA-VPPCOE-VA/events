@@ -106,6 +106,13 @@ p {
   margin-bottom: 1rem;
 }
 
+.featured-section .container .card1 img{
+              height: 24rem;
+              width: 100%;
+              object-fit: cover;
+			 
+ }
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
