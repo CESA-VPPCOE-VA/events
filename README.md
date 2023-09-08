@@ -1,5 +1,5 @@
 # CESA-CSI-VPPCOE
-![image](https://github.com/CoderX-Officials/CESA-CSI-VPPCOE/assets/121545998/5b91d816-cfbf-489e-9349-828a7f264bc3)
+![image](https://github.com/CESA-VPPCOE-VA/events/blob/main/images/Screenshot%202023-09-08%20175540.png)
 
 Welcome to the CESA (Computer Engineering Students Association) & CSI (Computer Society Of India) Website Project Repository!
 
