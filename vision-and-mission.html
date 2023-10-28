@@ -100,6 +100,17 @@ li{
             width: 100%;
             height: auto;
         }
+        .vertical-nav {
+    position: fixed;
+    top: 25%;
+    left: 0;
+    height: 50%;
+    width: 250px;
+    background-color: white;
+    border-radius: 100%;
+    overflow-y: auto;
+}
+
 
 
     </style>
@@ -126,6 +137,11 @@ li{
          </div>
       </div>
    </nav> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#verticalNavbar" 
+    aria-controls="verticalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    Toggle Navbar
+</button>
+    <div class="collapse" id="verticalNavbar">
     <div class="vertical-nav bg-white">
     <ul class="nav flex-column">
         <li class="nav-item">
@@ -155,6 +171,7 @@ li{
         </li>
     </ul>
 </div>
+    </div>
 
     <header>
         <h1>College Vision & Mission</h1>
