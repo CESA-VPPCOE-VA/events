@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>College & Computer Department</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #2a5298;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.content > h2, .content > p, .content > ul {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease-out;
+}
+h2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+li{
+    margin-top: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px; /* Optional: Add some space above the button */
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+
+    /* Optional: Add a hover effect for the button */
+}
+
+.download-button:hover {
+    background: #2a5298;
+}
+
+
+@media screen and (min-width: 992px) { 
+    body {
+        font-size: 20px;  /* Adjust this value to whatever you desire for desktop view */
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>College Vision & Mission</h1>
+    </header>
+
+    <section class="content">
+        <h2>College Vision</h2>
+        <p>To provide an environment to educate, encourage and explore students by facilitating innovative
+            research, entrepreneurship, opportunities and employability to achieve social and professional
+            goals.</p>
+        
+        <h2>College Mission</h2>
+        <p>To foster entrepreneurship & strengthen industry institute interaction to enhance career
+            opportunities for the employability of students.</p>
+        <p> To encourage collaborations with industries and academic institutes in terms of projects &
+            internships by creating are as for Research and Development.</p>
+        <p> To build up appropriate moral and ethical skills and to promote holistic development of students
+            through various academic, technical, social and cultural activities.</p>
+
+        <h2>Computer Department Vision</h2>
+        <p> To develop a center of excellence in computer engineering and produce globally competent
+            engineers who contribute towards the progress of the engineering community and society as a
+            whole.</p>
+        
+        <h2>Computer Department Mission</h2>
+        <ul>
+            <li><Span style="font-weight: bold;">M1:</Span> To provide students with diversified engineering knowledge to work in a   multidisciplinary
+                environment.</li>
+            <li><Span style="font-weight: bold;">M2:</Span> To Provide a platform to cultivate research, innovation, and entrepreneurial skills.</li>
+            <li><Span style="font-weight: bold;">M3:</Span> To produce world-class computer engineering professionals with moral values and
+                leadership abilities for the sustainable development of society.</li>
+        </ul>
+        <h2>Program Educational Objectives (PEOs)</h2>
+        <ul>
+            <li><Span style="font-weight: bold;">PEO1:</Span> To create graduates with sound fundamental knowledge of computer engineering.</li>
+            <li><Span style="font-weight: bold;">PEO2:</Span> To enhance students' skills towards emerging technologies to propose solutions for
+                engineering problems and entrepreneurial pursuits, making them employable.</li>
+            <li><Span style="font-weight: bold;">PEO3:</Span> To produce technology professionals with ethical values and commitment to lifelong
+                learning.</li>
+        </ul>
+
+        <h2>Program Specific Outcomes (PSOs)</h2>
+        <ul>
+            <li><Span style="font-weight: bold;">1. </Span> Graduates of programme will be able to provide effective and efficient real time
+                solutions using practical knowledge in Computer Engineering domain</li>
+            <li><Span style="font-weight: bold;">2. </Span>Graduates of programme will be able to use engineering practices , strategies and tactics
+                for the development , operation and maintenance of software system.</li>
+        </ul>
+
+        <div class="button-container">
+            <a href="Vision_Mission_Of_Computer.pdf" download class="download-button">Download PDF</a>
+        </div>
+    </section>
+   <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    let delay = 0;
+    const sections = document.querySelectorAll('.content > h2, .content > p, .content > ul');
+    
+    sections.forEach(section => {
+        setTimeout(() => {
+            section.style.opacity = 1;
+            section.style.transform = 'translateY(0)';
+        }, delay);
+        delay += 100;
+    });
+});
+
+   </script>
+</body>
+</html>
