@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+<!--     <link rel="stylesheet" href="css/style.css"> -->
     <link rel="shortcut icon" type="image/x-icon" href="images/csipng.png">
-    <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+<!--     <link href="css/templatemo-topic-listing.css" rel="stylesheet"> -->
     <title>College & Computer Department</title>
     <meta name="description" content="Official website for the Computer Department Society Association (CESA) at VPPCOE College. Discover our vision, mission, events, and more.">
     <meta name="keywords" content="CESA, VPPCOE College, Computer Department Society Association, College Events, College Association, VPPCOE CESA,padmabhushan vasantdada patil">
-    
+<!--     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
     <!-- Open Graph Tags -->
     <meta property="og:title" content="CESA at VPPCOE College - Computer Department Society Association">
     <meta property="og:description" content="Explore the initiatives, events, and contributions of the Computer Department Society Association (CESA) at VPPCOE College.">
@@ -84,10 +86,26 @@ li{
 }
 
 
+        /* Styles for the vertical navbar */
+        .vertical-nav {
+            position: fixed;
+            top: 25%;  /* Centers it vertically */
+            left: 0;
+            height: 50%;
+            width: 250px;  /* or whatever width you want */
+            overflow-y: auto;
+        }
+
+        .vertical-nav img {
+            width: 100%;
+            height: auto;
+        }
+
+
     </style>
 </head>
 <body>
-     <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+<!--      <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
       <div class="container">
          <a class="navbar-brand" href="index.html">CESA-CSI<span> VPPCOE.</span></a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
@@ -107,7 +125,37 @@ li{
             </ul>
          </div>
       </div>
-   </nav>
+   </nav> -->
+    <div class="vertical-nav bg-white">
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">
+                <i class="bi bi-house-door"></i> Home
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">
+                <i class="bi bi-person-circle"></i> About
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">
+                <i class="bi bi-envelope"></i> Contact
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="events.html">
+                <i class="bi bi-calendar"></i> Events
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="blog.html">
+                <i class="bi bi-journal"></i> Blog
+            </a>
+        </li>
+    </ul>
+</div>
+
     <header>
         <h1>College Vision & Mission</h1>
     </header>
@@ -175,9 +223,12 @@ li{
 });
 
    </script>
-      <script src="js/jquery.min.js"></script>
+<!--       <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
