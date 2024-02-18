@@ -10497,7 +10497,7 @@ h5,
         top: 0;
       
       }
-      .ftco-navbar-light.scrolled.awake {
+/*       .ftco-navbar-light.scrolled.awake {
         margin-top: 0px;
         -webkit-transition: .3s all ease-out;
         -o-transition: .3s all ease-out;
@@ -10508,7 +10508,7 @@ h5,
         -webkit-transition: .3s all ease-out;
         -o-transition: .3s all ease-out;
         transition: .3s all ease-out;
-      }
+      } */
   .ftco-navbar-light .navbar-brand {
     color: #000;
     text-transform: uppercase;
