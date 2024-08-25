@@ -42,6 +42,30 @@
   box-sizing: border-box;
 }
 
+.NavBAR{
+  width: 100%;
+  display: none;
+}
+@media screen and (max-width:481px){
+  .custom-navbar{
+    display: none;
+  }
+  .NavBAR{
+    display: flex;
+  }
+}
+
+@media screen and (max-width:768px){
+  .custom-navbar{
+    display: none;
+  }
+
+  .NavBAR{
+    display: flex;
+  }
+}
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -4458,6 +4482,24 @@ input[type="button"].btn-block {
   align-items: center;
 
 
+}
+.cont2{
+  margin-top: 10rem;
+}
+.CardWhole{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.row2{
+  width: 100%;
+}
+.container3{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .custom-range::-ms-track {
   width: 100%;
