@@ -4634,6 +4634,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
+  width: 100%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4669,7 +4670,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4677,6 +4678,10 @@ input[type="button"].btn-block {
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
+}
+
+.container a{
+  font-size: 1rem;
 }
 
 .navbar-nav {
