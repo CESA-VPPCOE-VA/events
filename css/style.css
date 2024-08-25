@@ -4450,8 +4450,8 @@ input[type="button"].btn-block {
   background-color: white;
 }
 .container2{
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -4570,7 +4570,7 @@ input[type="button"].btn-block {
   display: flex;
   align-items: center;
   background-color: #244886;
-  border-radius: 10px;
+  border-radius: 7px;
   border: none;
 }
 
